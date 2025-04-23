@@ -1,0 +1,17 @@
+{
+  "chatbot": [
+    {
+      "chatbotName": "essentials",
+      "chatbotPassword": "essentials"
+    }
+  ],
+  "company": [
+    {
+      "companyName": "Bots Mexico",
+      "companyEmail": ""
+    }
+  ],
+  "apiKeys": [{ "testApi": "123api" }],
+  "emails": [{ "test": "test@test.com" }],
+  "links": [{ "website": "https://www.google.com/" }]
+}

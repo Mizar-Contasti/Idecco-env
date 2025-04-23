@@ -1,0 +1,14 @@
+{
+    "require": {
+        "guzzlehttp/guzzle": "^7.9",
+        "google/cloud-dialogflow": "1.9",
+        "stripe/stripe-php": "^17.1",
+        "google/apiclient": "^2.18",
+        "google/cloud-bigquery": "^1.31",
+        "google/cloud-storage": "^1.48",
+        "google/cloud-datastore": "^1.32",
+        "grpc/grpc": "^1.57",
+        "mpdf/mpdf": "^6.1",
+        "phpmailer/phpmailer": "^6.9"
+    }
+}

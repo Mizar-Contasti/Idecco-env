@@ -1,0 +1,29 @@
+runtime: php81
+service: bot-webhook
+# env: standard
+
+resources:
+  cpu: 4
+  memory_gb: 16
+  disk_size_gb: 10
+
+# liveness_check:
+#   initial_delay_sec: "300"
+#   check_interval_sec: "30"
+#   timeout_sec: "4"
+#   failure_threshold: 4
+#   success_threshold: 2
+
+# readiness_check:
+#   check_interval_sec: "5"
+#   timeout_sec: "4"
+#   failure_threshold: 2
+#   success_threshold: 2
+#   app_start_timeout_sec: "300"
+
+instance_class: F1 # Use f1-micro machines
+
+automatic_scaling:
+  min_idle_instances: 2 # Always have at least 1 instance running
+  target_cpu_utilization: 0.65 # Scale when CPU reaches 65%
+  max_instances: 10 # Maximum of 10 instances
